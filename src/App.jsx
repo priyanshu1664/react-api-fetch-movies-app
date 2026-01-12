@@ -4,7 +4,7 @@ import "./App.css";
 import AddMovie from "./components/AddMovie";
 import LoadingSpinner from "./components/LoadingSpinner";
 import Header from "./UI/Header";
-import EditMovie from "./components/editMovie";
+import EditMovie from "./components/EditMovie";
 
 function App() {
   const [movies, setMovies] = useState([]);
