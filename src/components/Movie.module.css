@@ -1,0 +1,63 @@
+.movie {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #230052;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+}
+
+.movie h2 {
+  font-size: 2rem;
+  color: #f7e702;
+}
+
+.movie h3 {
+  color: #eccf77;
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Delete Button */
+.btnDelete {
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+  background-color: transparent;
+  color: #f5c518; /* gold */
+  border: 2px solid #f5c518;
+}
+
+/* Hover Effect */
+.btnDelete:hover {
+  background-color: #f5c518;
+  color: #000000;
+  transform: scale(1.05);
+}
+.btnEdit {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 20px;
+  padding: 8px 16px;
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.btnEdit:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transform: scale(1.05);
+}
